@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Search from './components/Search';
 
 
-const UNSPLASH_KEY = process.env.REACT_APP_UNSPLASH_KEY;
+const UNSPLASH_KEY = "t11X0zZNEoDJNqc7e3M0Uj3RIV37FQAzf5g9yhk9k8U";
 
 function App() {
   const [word, setWord] = useState(''); 
@@ -20,6 +20,7 @@ function App() {
       .catch((err)=>{
         console.log(err);
       })
+      setWord('');
   }
   // console.log(UNSPLASH_KEY);
  
