@@ -2,5 +2,10 @@
   "dependencies": {
     "bootstrap": "^4.5.3",
     "react-bootstrap": "^1.4.0"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin": "^1.0.1",
+    "prettier": "^2.7.1"
   }
 }
