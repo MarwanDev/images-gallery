@@ -14,7 +14,8 @@
     "web-vitals": "^2.1.4"
   },
   "prettier":{
-    "singleQuote": true
+    "singleQuote": true,
+    "endOfLine":"auto"
   },
   "scripts": {
     "start": "react-scripts start",
